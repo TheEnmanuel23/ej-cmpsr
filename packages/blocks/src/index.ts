@@ -4,3 +4,5 @@ export * from './Footer';
 export * from './Hero';
 export * from './Navigation';
 export * from './Testimonial';
+
+console.log('1');
