@@ -1,8 +1,8 @@
 {
-  "name": "composer",
+  "name": "ej-cmpsr",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "Steve Cox <stevejcox@me.com>",
+  "author": "Enmnanuel Jarquin",
   "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
@@ -54,7 +54,7 @@
       },
       "build-storybook": {
         "dependsOn": [
-          "@cmpsr/components#libbuild"
+          "@ej-cmpsr/components#libbuild"
         ],
         "outputs": [
           "storybook-static/**"

@@ -1,1 +1,0 @@
-export { createContentfulLink } from './client';
