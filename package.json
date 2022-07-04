@@ -15,7 +15,7 @@
     "test:coverage": "turbo run test:coverage",
     "lint": "eslint . --ext .tsx,.ts,.js",
     "lint-and-fix": "eslint . --ext .tsx,.ts,.js --fix",
-    "publish-ci": "turbo run libbuild && turbo run type:emit && changset publish",
+    "publish-ci": "turbo run libbuild && turbo run type:emit && changeset publish",
     "release": "lerna publish --conventional-commits --create-release github --yes",
     "storybook": "turbo run storybook"
   },
